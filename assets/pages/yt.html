@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="PageStyle.css">
+	<title>My HTML Page with a Video</title>
+	<style>
+		h1 {
+			font-size: 48px;
+			text-align: center;
+			margin-top: 50px;
+		}
+		body {
+			background-color: lightgreen;
+		}
+		video {
+			display: block;
+			margin: 0 auto;
+		}
+		.button {
+			display: block;
+			width: 200px;
+			height: 50px;
+			background-color: blue;
+			color: white;
+			text-align: center;
+			line-height: 50px;
+			margin: 50px auto 0;
+			text-decoration: none;
+			font-size: 24px;
+			border-radius: 5px;
+		}
+	</style>
 </head>
 <body>
-	<h1>End LESS</h1>
-
-	<div class="container">
-		<iframe width="100%" height="100%" src="https://www.youtube.com/embed/EsyZVyahZTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-	</div>
-	
-	
-	<a href="https://drive.google.com/drive/folders/0Bwmk1adXLhVAfmVjOE45blhkTDFybWc4WU82cFFHNmRJVEMwOTlORnZfTTBhLWZlNE5zdUE?resourcekey=0-IH0y7VeR_SVTztlqHpmw0Q&usp=sharing" class="button" download>Download File</a>
-	<h2> Download here</h2>
-	<P>This is fun to play game </P>
-	<p>here you will experiace nubber of targets and you can easliy achive the target </p>
-	<p> Engine used for this game is unity </p>
-	<p> programming part done in c# </p>
+	<h1>Welcome to My Page!</h1>
+	<p>Check out this cool video:</p>
+	<video width="560" height="315" controls>
+		<source src="./Videos/PlaneTracking.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<a href="https://github.com/explore" class="button" download>Download File</a>
 </body>
 </html>
+
 
 
 
