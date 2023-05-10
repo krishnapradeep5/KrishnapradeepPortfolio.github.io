@@ -125,7 +125,7 @@ img{
     align-items: center;
 
     &__menu{
-        @media screen and (max-width: 768px){
+        @media screen and (max-width: 786px){
             position: fixed;
             top: var(--header-height);
             right: -100%;
@@ -402,7 +402,7 @@ img{
     }
 }
 
-@media screen and(min-width: 768px){
+@media screen and(min-width: 786px){
     body{
         margin: 0;
     }
